@@ -21,7 +21,7 @@ For the model, I've implemented a Gradient Boosting Regressor with XGBoost libra
 2. Install the dependencies:\
 `pip install -r requirements.txt`
 3. Run the jupyter notebook:\
-`jupyter notebook mnist-handwritten-digit-recognition.ipynb`
+`jupyter notebook notebook.ipynb`
 
 4. The code will automatically train the model and generate predictions for the test set.
 
