@@ -1,21 +1,35 @@
-# Ames Housing Price Prediction Top 300
-This project is a personal endeavor to predict the final price of residential homes in Ames, Iowa using a dataset with 79 explanatory variables describing various aspects of the homes. The goal of this project is to improve my skills in data science and machine learning by applying various techniques to make accurate predictions.
+# README
 
-## Data Description
-The dataset provided for this project includes information on residential homes in Ames, Iowa, with 79 explanatory variables describing almost every aspect of the homes, including features such as the number of bedrooms, the proximity to an east-west railroad, and the height of the basement ceiling. The goal is to use this data to predict the final price of each home.
+## Introduction
 
-Project Objectives
-To apply feature engineering techniques to find new and innovative ways to use the provided data to make accurate predictions.
-To use advanced regression techniques such as random forest and gradient boosting to build models and make predictions.
-To improve my understanding of data exploration, visualization, and model evaluation.
+This project is a playground competition on Kaggle, which aims to predict the final price of residential homes in Ames, Iowa based on 79 explanatory variables. The dataset provides a rich collection of information about the homes, including features such as the number of bedrooms, the size of the lot, and the proximity to certain amenities.
+
+## Competition Description
+
+The goal of this competition is to correctly predict the final price of each home in the dataset. The dataset contains 79 explanatory variables that describe almost every aspect of the residential homes in Ames, Iowa. This competition is a great opportunity to practice your skills in feature engineering and advanced regression techniques such as random forest and gradient boosting.
+
+## Practice Skills
+
+- Creative feature engineering: You will need to come up with creative ways to extract meaningful information from the dataset and use it to improve your predictions.
+
+- Advanced regression techniques: You will need to use machine learning techniques such as random forest and gradient boosting to build accurate models.
+
 ## Getting Started
-To begin this project, I will start by acquiring the dataset and familiarizing myself with the provided data. I will then perform data cleaning and preprocessing, as well as explore and visualize the data to gain insights and identify patterns.
 
-Once I have a good understanding of the data, I will start building and training my models using the provided data. I will evaluate the performance of my models and iterate on my approach to improve the accuracy of my predictions.
+1. Go to https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data and download the train.csv and test.csv files.
 
-Finally, I will document my process, results, and findings in a clear and well-organized manner.
+2. Install the necessary dependencies by running `pip install -r requirements.txt`
 
-This project is an exciting and challenging personal undertaking, and I am eager to see the results of my work.
+3. Begin by exploring the data and creating a baseline model.
 
+4. Experiment with different feature engineering techniques and advanced regression models to improve your predictions.
 
+## Submitting Your Results
 
+You can submit your results to the competition by following the instructions on the Kaggle website. Please make sure to read and accept the competition rules before making any submissions.
+
+## Conclusion
+
+This project is a great opportunity to practice your skills in feature engineering and advanced regression techniques. Good luck and have fun!
+
+Please let me know if you have any other questions or concerns.
