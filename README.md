@@ -1,4 +1,4 @@
-# README
+# House Price Competition
 
 ## Introduction
 
@@ -6,13 +6,13 @@ This project is a playground competition on Kaggle, which aims to predict the fi
 
 ## Competition Description
 
-The goal of this competition is to correctly predict the final price of each home in the dataset. The dataset contains 79 explanatory variables that describe almost every aspect of the residential homes in Ames, Iowa. This competition is a great opportunity to practice your skills in feature engineering and advanced regression techniques such as random forest and gradient boosting.
+The goal of this competition is to correctly predict the final price of each home in the dataset. The dataset contains 79 explanatory variables that describe almost every aspect of the residential homes in Ames, Iowa. With the application of advanced regression techniques, I've ranked top 300 in the competition.
 
-## Practice Skills
+## My Approach
 
-- Creative feature engineering: You will need to come up with creative ways to extract meaningful information from the dataset and use it to improve your predictions.
+I've used various feature engineering techniques to extract meaningful information from the dataset, such as creating new features based on the interaction of existing ones, and encoding categorical variables using one-hot encoding.
 
-- Advanced regression techniques: You will need to use machine learning techniques such as random forest and gradient boosting to build accurate models.
+For the model, I've implemented a Gradient Boosting Regressor with XGBoost library, which has shown to be a powerful tool for regression problems. Additionally, I've used techniques like hyperparameter tuning and cross-validation to improve the model's performance.
 
 ## Getting Started
 
@@ -20,16 +20,14 @@ The goal of this competition is to correctly predict the final price of each hom
 
 2. Install the necessary dependencies by running `pip install -r requirements.txt`
 
-3. Begin by exploring the data and creating a baseline model.
+3. Run the code by executing `python main.py`
 
-4. Experiment with different feature engineering techniques and advanced regression models to improve your predictions.
+4. The code will automatically train the model and generate predictions for the test set.
 
-## Submitting Your Results
-
-You can submit your results to the competition by following the instructions on the Kaggle website. Please make sure to read and accept the competition rules before making any submissions.
+5. You can use the generated predictions to submit to the competition on Kaggle.
 
 ## Conclusion
 
-This project is a great opportunity to practice your skills in feature engineering and advanced regression techniques. Good luck and have fun!
+This project is a great example of how feature engineering and advanced regression techniques can be used to achieve high performance on a challenging dataset. I hope that my code serves as a useful reference for others looking to improve their skills in machine learning and data science.
 
 Please let me know if you have any other questions or concerns.
