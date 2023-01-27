@@ -16,11 +16,12 @@ For the model, I've implemented a Gradient Boosting Regressor with XGBoost libra
 
 ## Getting Started
 
-1. Go to https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data and download the train.csv and test.csv files.
-
-2. Install the necessary dependencies by running `pip install -r requirements.txt`
-
-3. Run the code by executing `python main.py`
+1. Clone the repository:\
+`git clone https://github.com/Behlil/House-Price-Competition`
+2. Install the dependencies:\
+`pip install -r requirements.txt`
+3. Run the jupyter notebook:\
+`jupyter notebook mnist-handwritten-digit-recognition.ipynb`
 
 4. The code will automatically train the model and generate predictions for the test set.
 
